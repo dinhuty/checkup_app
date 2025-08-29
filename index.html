@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chọn trang kiểm tra</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="color-scheme" content="light dark" />
+  </head>
+  <body class="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100 dark:from-slate-900 dark:via-slate-950 dark:to-slate-900 text-slate-800 dark:text-slate-100">
+    <main class="flex items-center justify-center min-h-screen p-6">
+      <div class="w-full max-w-3xl">
+        <!-- Header Card -->
+        <section class="relative overflow-hidden rounded-3xl shadow-xl bg-white/70 dark:bg-slate-900/70 ring-1 ring-slate-200/60 dark:ring-slate-800 backdrop-blur">
+          <div class="absolute inset-0 opacity-40 pointer-events-none">
+            <div class="absolute -top-20 -left-20 h-64 w-64 rounded-full bg-gradient-to-tr from-indigo-400/40 to-cyan-400/40 blur-3xl"></div>
+            <div class="absolute -bottom-24 -right-24 h-72 w-72 rounded-full bg-gradient-to-tr from-fuchsia-400/30 to-rose-400/30 blur-3xl"></div>
+          </div>
+
+          <div class="relative px-8 pt-10 pb-6 sm:px-12 sm:pt-12 sm:pb-8">
+            <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Chọn trang</h1>
+            <p class="mt-3 text-slate-600 dark:text-slate-300 max-w-prose">
+              Vui lòng chọn một trong ba trang bên dưới để tiếp tục.
+            </p>
+
+            <!-- Link Grid -->
+            <div class="mt-8 grid gap-4 sm:grid-cols-2">
+              <!-- VI -->
+              <a href="checkup_vi.html" class="group relative overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-950/60 p-5 shadow transition hover:shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500">
+                <div class="flex items-start gap-4">
+                  <div class="shrink-0 mt-1">
+                    <!-- Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-10 w-10 text-indigo-600 dark:text-indigo-400 transition group-hover:scale-110">
+                      <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 5a1 1 0 10-2 0v4.382l-2.447 2.447a1 1 0 101.414 1.414l2.74-2.74A1 1 0 0012 12V7z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h2 class="text-lg font-semibold">Checkup – Tiếng Việt</h2>
+                    <p class="mt-1 text-sm text-slate-600 dark:text-slate-400">Trang kiểm tra dành cho người dùng tiếng Việt.</p>
+                  </div>
+                </div>
+                <span class="pointer-events-none absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-indigo-500 via-sky-500 to-cyan-500 opacity-0 transition-opacity group-hover:opacity-100"></span>
+              </a>
+
+              <!-- EN -->
+              <a href="checkup_en.html" class="group relative overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-950/60 p-5 shadow transition hover:shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500">
+                <div class="flex items-start gap-4">
+                  <div class="shrink-0 mt-1">
+                    <!-- Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-10 w-10 text-cyan-600 dark:text-cyan-400 transition group-hover:scale-110">
+                      <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm4.95 5.636a1 1 0 10-1.9-.572l-2.2 7.32-2.2-7.32a1 1 0 10-1.9.572l3 10a1 1 0 001.9 0l3-10z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h2 class="text-lg font-semibold">Checkup – English</h2>
+                    <p class="mt-1 text-sm text-slate-600 dark:text-slate-400">Checkup page for English users.</p>
+                  </div>
+                </div>
+                <span class="pointer-events-none absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-cyan-500 via-sky-500 to-indigo-500 opacity-0 transition-opacity group-hover:opacity-100"></span>
+              </a>
+
+              <!-- JA / Long filename -->
+              <a href="当日運用システム基本設計%2024d290938a198032bb9ce28f5781b48d%206794e80e9a5948be8043fe8fe4297793.html" class="group relative overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-950/60 p-5 shadow transition hover:shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 sm:col-span-2">
+                <div class="flex items-start gap-4">
+                  <div class="shrink-0 mt-1">
+                    <!-- Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-10 w-10 text-fuchsia-600 dark:text-fuchsia-400 transition group-hover:scale-110">
+                      <path d="M4 6a2 2 0 012-2h12a2 2 0 012 2v9a2 2 0 01-2 2h-6l-3.2 3.2a1 1 0 01-1.7-.7V17H6a2 2 0 01-2-2V6z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h2 class="text-lg font-semibold">当日運用システム基本設計</h2>
+                    <p class="mt-1 text-sm text-slate-600 dark:text-slate-400">Tài liệu tiếng Nhật (tên file dài, đã encode khoảng trắng).</p>
+                  </div>
+                </div>
+                <span class="pointer-events-none absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-fuchsia-500 via-rose-500 to-orange-500 opacity-0 transition-opacity group-hover:opacity-100"></span>
+              </a>
+            </div>
+
+            <footer class="mt-8 flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
+              <span>© <span id="y"></span> Checkup</span>
+              <button id="mode" class="rounded-xl px-3 py-1.5 border border-slate-200 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-800/60">Chế độ tối / sáng</button>
+            </footer>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script>
+      // year
+      document.getElementById('y').textContent = new Date().getFullYear();
+      // simple dark-mode toggle
+      const modeBtn = document.getElementById('mode');
+      const root = document.documentElement;
+      const key = 'prefers-dark';
+      const saved = localStorage.getItem(key);
+      if (saved === 'true') root.classList.add('dark');
+      modeBtn.addEventListener('click', () => {
+        root.classList.toggle('dark');
+        localStorage.setItem(key, root.classList.contains('dark'));
+      });
+    </script>
+  </body>
+</html>
